@@ -2,20 +2,21 @@ package pro.sky.course1;
 
 public class Main {
     public static void main(String[] args) {
-        var fried =19;
-        System.out.println(fried);
-        fried += 2;
-        System.out.println(fried);
-        fried /= 7;
-        System.out.println(fried);
+        var firstBoxer = 78.2;
+        var secondBoxer = 82.7;
+        System.out.println(firstBoxer+secondBoxer);
+        System.out.println(firstBoxer-secondBoxer);
+        System.out.println(secondBoxer-firstBoxer);
+        System.out.println(secondBoxer%firstBoxer);
 
-        var dog = 3.5;
-        System.out.println(dog);
-        dog *= 10;
-        System.out.println(dog);
-        dog /= 3.5;
-        System.out.println(dog);
-        dog += 4;
-        System.out.println(dog);
+        var hours = 640;
+        var personHours = 8;
+        var person = hours/personHours;
+        System.out.println("Всего работников в компании "+ person);
+        person += 94;
+        hours = person*personHours;
+        System.out.println("Если в компании работает "+ person +" человек, то всего "+ hours +" часов работы может быть поделено между сотрудниками");
     }
 }
+
+
