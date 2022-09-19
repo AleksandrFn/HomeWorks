@@ -23,6 +23,7 @@ public class Main {
         person += 94;
         hours = person*personHours;
         System.out.println("Если в компании работает "+ person +" человек, то всего "+ hours +" часов работы может быть поделено между сотрудниками");
+
     }
 }
 
